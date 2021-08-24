@@ -1,0 +1,89 @@
+.form {
+    width: 60%;
+    margin: 90px auto;
+    background-color: rgb(2, 150, 150);
+    display: flex;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-width: 600px;
+   
+}
+
+.infos {
+    display: flex;
+   
+}
+
+.theform {
+    display: flex;
+    flex-direction: column;
+}
+.theform input {
+    margin-bottom: 10px;
+    width: 250px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(60, 5, 60);
+}
+.theform label {
+    color: rgb(60, 5, 60);
+    font-weight: 700;
+}
+.theform textarea {
+    background-color: transparent;
+    border-bottom:2px solid rgb(60, 5, 60);
+    outline: none;
+    max-height: 120px;
+    height: 120px;
+    max-width: 250px;
+}
+.theform button {
+    background-color: rgb(87, 10, 87);
+    outline: none;
+    border: none;
+    padding: 8px 8px;
+    margin-top: 10px;
+    width: 50%;
+    left: 30%;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+
+.theform button:hover {
+    background-color: rgb(60, 5, 60);
+}
+
+.form__right {
+    margin-left: 60px;
+}
+.form__left {
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    color:wheat;
+    height: 240px;
+    
+
+}
+
+.infos p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form__left h2 {
+    margin-bottom: 40px;
+    text-shadow: 3px 4px 7px black;
+    color: white;
+}
+
+.error {
+    color: red;
+}

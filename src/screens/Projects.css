@@ -1,0 +1,27 @@
+.projects {
+    height: 100vh;
+    color: var(--primary-color);
+    padding: var(--sections-padding);
+    
+    
+}
+
+
+.projects h1 {
+    text-align: var(--sections-align);
+
+    
+}
+
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.projects__constant {
+    font-family: var(--code-font);
+    color: teal;
+}
+

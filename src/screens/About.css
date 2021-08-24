@@ -1,0 +1,29 @@
+.about {
+    height: 100vh;
+    color: var(--primary-color);
+    padding: var(--sections-padding);
+    
+    text-align: var(--sections-align)
+    
+    
+}
+
+.about h1 {
+    margin-bottom: 15px;
+    width: 17%;
+}
+
+ li {
+    font-size: 22px;
+    font-family: var(--main-font);
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.about__object,
+  span {
+   font-family: var(--code-font);
+   font-size: 15px;
+   color: teal;
+}
+

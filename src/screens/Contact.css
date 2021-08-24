@@ -1,0 +1,9 @@
+.contact {
+    height: 100vh;
+    color: var(--primary-color);
+    padding: var(--sections-padding);
+}
+
+.contact h1 {
+    text-align: var(--sections-align);
+}

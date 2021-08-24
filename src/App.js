@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react'
+import Top from './screens/Top'
+import Skills from './screens/Skills'
+import About from './screens/About' 
+import Contact from './screens/Contact'
+import Projects from './screens/Projects'
+
+
+
+
 
 function App() {
+   const[scrollIcon, setScrollIcon]=useState(false)
+
+  useEffect(()=>{
+    window.addEventListener('scroll', ()=>{
+      if(window.scrollY > 600){
+         setScrollIcon(true)
+      } else {
+        setScrollIcon(false)
+      }
+    })
+    
+  },[])
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+     <Top showIcon={scrollIcon}/>
+     <About/>
+     <Skills/>
+     <Projects/>
+     <Contact/>
+    </React.Fragment>
   );
 }
 

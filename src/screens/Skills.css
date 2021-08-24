@@ -1,0 +1,43 @@
+.skills  {
+    height: 100vh;
+    color: var(--primary-color);
+    padding: var(--sections-padding);
+    text-align: var(--sections-align);
+    
+}
+
+
+
+.skills h1 {
+   width: 16%;
+   margin-bottom: 15px;
+}
+
+
+.skills__object,
+  span {
+   font-family: var(--code-font);
+   font-size: 15px;
+   color: teal;
+}
+
+li {
+    list-style: none;
+}
+
+
+.skills img {
+    width: 37px;
+    height: 37px;
+    object-fit: contain;
+    margin-left: 5px;
+   
+  
+}
+
+.skill__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
