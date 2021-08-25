@@ -1,5 +1,5 @@
 .projects {
-    height: 100vh;
+    min-height: 100vh;
     color: var(--primary-color);
     padding: var(--sections-padding);
     
@@ -25,3 +25,24 @@
     color: teal;
 }
 
+
+
+@media(max-width:599px){
+   .projects {
+       padding: 2rem 3rem;
+       margin-right: 50px;
+     
+   }
+   .projects h1 {
+       text-align: left;
+       margin-left: 50px;
+       margin-bottom: 30px;
+   }
+   .projects__list {
+       flex-direction: column;
+       margin-left: -50px;
+   }
+     .mobile__jednako {
+        padding-left: 20px;
+    }
+}

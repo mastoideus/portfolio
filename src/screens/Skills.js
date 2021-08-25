@@ -37,7 +37,9 @@ const Skills=()=>{
            <h1><span className='skills__object'>const</span> Skills<span className='skills__object'> = </span></h1>
            
                <span>{objectNot1}</span>
+               <div className='mobile__div'>
                {skillsList}
+               
                <li className='skill__row'>
                   <span style={{marginRight:'5px'}}>React: </span> 
                   <SiReact style={{width:'37px', height:'37px'}} />
@@ -46,6 +48,7 @@ const Skills=()=>{
                   <span style={{marginRight:'5px'}}>React Native: </span> 
                   <SiReact style={{width:'37px', height:'37px'}} />
                 </li>
+                </div>
                 <span>{objectNot2}</span>
                
           

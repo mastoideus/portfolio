@@ -41,3 +41,22 @@ li {
     justify-content: center;
     margin-bottom: 8px;
 }
+
+
+@media(max-width:599px){
+    .skills {
+        text-align: left;
+    }
+    .skills h1 {
+        margin-left: 20px;
+    }
+    li {
+        font-size: 17px;
+        
+    }
+    .mobile__div{
+        margin-right: 190px;
+        
+    }
+  
+}

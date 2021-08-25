@@ -27,3 +27,18 @@
    color: teal;
 }
 
+
+@media(max-width:599px){
+    .about {
+        text-align: left;
+    }
+    .about h1 {
+        margin-left: 20px;
+    }
+    li {
+        font-size: 17px;
+    }
+   .about__object,span {
+       font-size: 14px;
+   }
+}

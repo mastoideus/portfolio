@@ -5,5 +5,15 @@
 }
 
 .contact h1 {
-    text-align: var(--sections-align);
+    text-align: center;
+}
+
+
+@media(max-width:599px){
+    .contact {
+        padding: 2rem 0rem;
+    }
+   .contact h1 {
+       margin-left: 100px;
+   }
 }

@@ -22,7 +22,7 @@ const Projects=()=>{
     
     return (
         <div className='projects' id='projects'>
-           <h1><span>const </span>Projects<span> =</span></h1>
+           <h1><span>const </span>Projects<span className='mobile__jednako'> =</span></h1>
             <div className='projects__list'>
          
             {projects.map(project=>{

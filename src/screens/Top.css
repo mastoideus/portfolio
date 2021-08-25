@@ -104,3 +104,22 @@ width: 40px;
 .top__gitIcon:hover {
     transform: scale(1.2);
 }
+
+
+
+@media(max-width:599px){
+    .top {
+        padding-left:1.5rem;
+
+    }
+    .top__title {
+        font-size: 30px;
+        width: 57%;
+    }
+    .top__sidemenu li {
+        font-size: 16px;
+    }
+    .top__code {
+        font-size: 14px;
+    }
+}

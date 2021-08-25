@@ -80,3 +80,29 @@
     font-family: var(--code-font);
     font-size: 30px;
 }
+
+
+@media(max-width:599px){
+    .project {
+        margin-left: 0px;
+        width: 35%;
+    }
+    .project img {
+      width: 300px;
+      height: 220px;
+    }
+    .project__code1,.project__code2{
+        font-size: 20px;
+        
+    }
+   
+    .project__info {
+        width: 200px;
+       
+    }
+    .project__title {
+        left: 20px;
+        top: 30px;
+    }
+  
+}
