@@ -28,7 +28,7 @@ const Top=({showIcon})=>{
             <a className='top__git' target='_blank' rel='noreferrer' href='https://github.com/mastoideus/'><FaGithub className='top__gitIcon' style={{fontSize:'38px'}}/></a>
            
            <img data-aos='fade-right' className='fly' width='40px' src='https://b.kisscc0.com/20180813/woe/kisscc0-insect-housefly-black-and-white-line-art-fly-lineart-5b71ab7e8aded6.8923538715341761265688.png' alt=''/>
-          <h1 data-aos='fade-right' className='top__title'><span className='top__code'>{titlestr1} </span><br/>Hello, I'm Anel <br/> Frontend Developer<span className='top__code'> {titlestr2}</span></h1>
+          <h1 data-aos='fade-right' className='top__title'><span className='top__code'>{titlestr1} </span><br/>Hello, I'm Anel <br/> Frontend Developer<br/><span className='top__code'> {titlestr2}</span></h1>
           
           <ul data-aos='fade-left' className='top__sidemenu'>
               <p className='top__code'>{liststr1}</p>

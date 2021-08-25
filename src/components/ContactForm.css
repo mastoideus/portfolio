@@ -93,7 +93,7 @@
     .form {
       flex-direction: column;
       width: 340px;
-      margin: 90px 20px;
+      margin: 20px 20px;
     }
     .form__right{
         margin-left: 0px;
