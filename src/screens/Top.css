@@ -118,11 +118,15 @@
     justify-content: space-between;
     position: fixed;
     top: 1.5rem;
-    right: 8.7rem;
+    right: 3.8rem;
   }
   .top__git {
       right: 10px;
-      top: 30px;
-      font-size: 28px;
+      top: 30px; 
+      
+  }
+  .top__gitIcon {
+  font-size: 20px;
   }
 }
+
