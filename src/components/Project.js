@@ -4,7 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 
-const Project=({name,framework,tools,mockup,id})=>{
+const Project=({name,framework,tools,mockup,id, src})=>{
 
     useEffect(()=>{
         Aos.init({
@@ -19,10 +19,10 @@ const Project=({name,framework,tools,mockup,id})=>{
         <div className='project'>
             <p className='project__code1'>{code1}</p>
             <div>
-              <div className='project__title'>
+              <a href={src} target='_blank' style={{color:'white'}}><div className='project__title'>
                  <h2>{name}</h2>
-                 <small className='project__livecode'>Live code</small>
-             </div>
+                 <small className='project__livecode'>See Live</small>
+             </div></a>
              <img src={mockup} alt=''/>
             </div>
             <div className='project__info' data-aos='fade-right'>
